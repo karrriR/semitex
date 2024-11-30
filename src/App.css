@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.App {
+    background-color: #F2F2F4;
+    overflow: hidden;
+}
+
 .header-main {
     background-image: url('/src/images/backgrounds/bg-header.png');
     background-size: cover;
