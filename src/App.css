@@ -2,3 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+.header-main {
+    background-image: url('/src/images/backgrounds/bg-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 55px 0 189px 0;
+}

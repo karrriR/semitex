@@ -1,6 +1,6 @@
 import "./Header.css";
 import logo from "../../images/logo/logo.png";
-import Navigation from "../Navigation/Navigation"
+import Navigation from "../Navigation/Navigation";
 import contactLogo from "../../images/icons/contact-icon.svg";
 
 function Header() {

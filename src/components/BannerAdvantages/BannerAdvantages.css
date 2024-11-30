@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+.advantages {
+  width: 835px;
+  height: 150px;
+  background: linear-gradient(
+    to right,
+    rgba(150, 154, 247, 0.3) 0%,
+    rgba(150, 154, 247, 0) 100%
+  );
+  border-radius: 10px;
+}
+.advantages__list {
+  list-style-type: none;
+  display: grid;
+  gap: 5px;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+.advantages__item {
+  font-family: "Commissioner", serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.advantages__item img {
+  margin-right: 14px;
+}
