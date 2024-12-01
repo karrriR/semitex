@@ -6,6 +6,7 @@ import AdvantagesBlock from "./components/AdvantagesBlock/AdvantagesBlock";
 import Manufacturers from "./components/Manufacturers/Manufacturers";
 import Workflow from "./components/Workflow/Workflow";
 import FAQ from "./components/FAQ/FAQ";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Manufacturers />
       <Workflow />
       <FAQ />
+      <Footer />
     </div>
   );
 }

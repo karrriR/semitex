@@ -1,6 +1,6 @@
 import "./Navigation.css";
 
-function Navigation() {
+function Navigation({ excludeFAQ }) {
   const menuItems = [
     "Каталог",
     "Производители",
@@ -10,10 +10,15 @@ function Navigation() {
     "FAQ",
     "Контакты",
   ];
+
+  const filteredItems = excludeFAQ
+    ? menuItems.filter(item => item !== "FAQ")
+    : menuItems;
+
   return (
     <nav className="navigation">
       <ul className="navigation__list">
-        {menuItems.map((item, index) => (
+        {filteredItems.map((item, index) => (
           <li key={index} className="navigation__item">
             <a href="#" className="navigation__link">
               {item}
