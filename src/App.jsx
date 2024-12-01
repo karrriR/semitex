@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import BannerContentBlock from "./components/BannerContentBlock/BannerContentBlock";
 import AdvantagesBlock from "./components/AdvantagesBlock/AdvantagesBlock";
+import Manufacturers from "./components/Manufacturers/Manufacturers";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <BannerContentBlock />
       </section>
       <AdvantagesBlock />
+      <Manufacturers />
     </div>
   );
 }

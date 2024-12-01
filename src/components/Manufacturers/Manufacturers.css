@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+.manufacturers {
+    background-image: url('/src/images/backgrounds/bg-manufacturers.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 155px 0;
+    box-sizing: border-box;
+}
+.manufacturers__title {
+    color: #FFFFFF;
+    font-family: "Montserrat", serif;
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+}
+.manufacturers__slider {
+    position: relative;
+    max-width: 1280px;
+    margin: 57px auto 42px auto;
+}
+.manufacturers__images {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+.manufacturers__description {
+    max-width: 1270px;
+    color: #FFFFFF;
+    font-family: "Commissioner", serif;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 31px;
+}
+.manufacturers__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.manufacturers__arrow-left {
+    left: -100px; 
+}
+
+.manufacturers__arrow-right {
+    right: -100px;
+}
+
+.manufacturers__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
