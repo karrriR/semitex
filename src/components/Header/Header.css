@@ -2,11 +2,24 @@
 
 .header {
   width: 100%;
+  padding: 55px 0;
+  box-sizing: border-box;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background 0.3s ease;
+}
+.header.scrolled {
+  background: rgba(3, 4, 58, 0.781);
+}
+.header__main-box {
   max-width: 1280px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px auto;
 }
 .header__contact {
   display: flex;
