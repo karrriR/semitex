@@ -5,6 +5,7 @@ import BannerContentBlock from "./components/BannerContentBlock/BannerContentBlo
 import AdvantagesBlock from "./components/AdvantagesBlock/AdvantagesBlock";
 import Manufacturers from "./components/Manufacturers/Manufacturers";
 import Workflow from "./components/Workflow/Workflow";
+import FAQ from "./components/FAQ/FAQ";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AdvantagesBlock />
       <Manufacturers />
       <Workflow />
+      <FAQ />
     </div>
   );
 }
