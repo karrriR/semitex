@@ -1,0 +1,89 @@
+.workflow-step {
+    padding: 39px 0 0 38px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.workflow-step__number {
+    color: #969AF7;
+    font-family: "Montserrat", serif;
+    font-weight: 800;
+    font-size: 36px;
+    text-align: left;
+    margin-right: 20px;
+}
+.workflow-step__title {
+    color: #FFFFFF;
+    font-family: "Montserrat", serif;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: left;
+    max-width: 235px;
+    line-height: 25px;
+}
+.workflow-step__text {
+    color: #FFFFFF;
+    font-family: "Commissioner", serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 60px;
+    line-height: 25px;
+}
+.workflow-step__description {
+    margin-top: 10px;
+}
+.workflow-step__name-box {
+    display: flex;
+    align-items: center;
+}
+.workflow-step:nth-child(-n+3) .workflow-step__text {
+    max-width: 300px;
+}
+.workflow-step:nth-child(n+4):nth-child(-n+6) .workflow-step__text {
+    max-width: 274px;
+}
+
+.workflow-step:nth-child(3) .workflow-step__title {
+    max-width: 305px;
+}
+.workflow-step:nth-child(1){
+    background-image: url("/src/images/backgrounds/bg-step1.png");
+    width: 439px;
+    height: 268px;
+    grid-area: step1;
+}
+.workflow-step:nth-child(2){
+    background-image: url("/src/images/backgrounds/bg-step2.png");
+    width: 442px;
+    height: 268px;
+    grid-area: step2;
+}
+.workflow-step:nth-child(3){
+    background-image: url("/src/images/backgrounds/bg-step3.png");
+    width: 413px;
+    height: 298px;
+    grid-area: step3;
+}
+.workflow-step:nth-child(4){
+    background-image: url("/src/images/backgrounds/bg-step4.png");
+    width: 442px;
+    height: 268px;
+    grid-area: step4;
+    padding: 39px 0 0 62px;
+    margin-left: -30px;
+}
+.workflow-step:nth-child(5){
+    background-image: url("/src/images/backgrounds/bg-step5.png");
+    width: 442px;
+    height: 268px;
+    grid-area: step5;
+    padding: 39px 0 0 62px;
+    margin-left: -30px;
+}
+.workflow-step:nth-child(6){
+    background-image: url("/src/images/backgrounds/bg-step6.png");
+    width: 413px;
+    height: 268px;
+    grid-area: step6;
+}
