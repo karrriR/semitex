@@ -36,9 +36,9 @@ function Manufacturers() {
         nextArrow: <NextArrow />,
         responsive: [
             {
-                breakpoint: 1920,
+                breakpoint: 1910,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 },
             },
