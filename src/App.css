@@ -19,14 +19,16 @@
     overflow: hidden;
 }
 
-@media (min-width: 360px) and (max-width: 743px) {
+@media (min-width: 360px) and (max-width: 739px) {
     .header-main {
         padding: 0 0 100px 0;
     }
 }
 
-@media (min-width: 744px) and (max-width: 1199px) {
-
+@media (min-width: 740px) and (max-width: 1199px) {
+    .header-main {
+        padding: 0 0 150px 0;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {

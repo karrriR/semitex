@@ -43,10 +43,11 @@ function Manufacturers() {
                 },
             },
             {
-                breakpoint: 768,
+                breakpoint: 740,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    dots: true,
                 },
             },
             {

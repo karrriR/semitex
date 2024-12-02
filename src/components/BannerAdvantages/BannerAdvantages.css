@@ -27,7 +27,7 @@
 }
 
 
-@media (min-width: 360px) and (max-width: 743px) {
+@media (min-width: 360px) and (max-width: 739px) {
   .advantages {
     width: 340px;
     height: 150px;
@@ -44,8 +44,22 @@
   }
 }
 
-@media (min-width: 744px) and (max-width: 1199px) {
-
+@media (min-width: 740px) and (max-width: 1199px) {
+  .advantages {
+    width: 640px;
+    height: 140px;
+  }
+  .advantages__list {
+    padding-top: 25px;
+    padding-left: 25px;
+    gap: 10px;
+  }
+  .advantages__item {
+    font-size: 17px;
+  }
+  .advantages__item img {
+    margin-right: 15px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {

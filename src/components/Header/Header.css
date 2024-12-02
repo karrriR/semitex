@@ -33,7 +33,7 @@
   font-size: 18px;
 }
 
-@media (min-width: 360px) and (max-width: 743px) {
+@media (min-width: 360px) and (max-width: 739px) {
   .header {
     padding: 15px 0;
   }
@@ -58,8 +58,29 @@
   }
 }
 
-@media (min-width: 744px) and (max-width: 1199px) {
-
+@media (min-width: 740px) and (max-width: 1199px) {
+  .header {
+    padding: 25px 0;
+  }
+  .header__main-box {
+    max-width: 730px;
+    display: block;
+    text-align: center;
+  }
+  .header__contact {
+    justify-content: center;
+  }
+  .header__contact-number {
+    font-size: 15px;
+  }
+  .header__contact-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .header__logo {
+    width: 130px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {
