@@ -120,5 +120,22 @@
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {
-
+  .banner-block {
+    max-width: 1200px;
+  }
+  .banner-block__title {
+    max-width: 650px;
+    font-size: 46px;
+  }
+  .banner-block__title-large {
+    font-size: 52px;
+  }
+  .banner-block__title-low {
+    font-size: 40px;
+  }
+  .banner-block__text {
+    max-width: 670px;
+    font-size: 18px;
+    margin: 15px 0 25px 0;
+  }
 }

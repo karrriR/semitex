@@ -149,5 +149,15 @@
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {
-
+    .container {
+        padding: 60px 0 140px 0;       
+    }
+    .workflow__title {
+        font-size: 38px;
+    }
+    .workflow__description {
+        max-width: 1000px;
+        font-size: 18px;
+        margin: 20px auto 35px auto;
+    }
 }

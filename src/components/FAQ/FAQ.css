@@ -66,5 +66,14 @@
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {
-
+    .faq {
+        padding: 115px 0 95px 0;
+        margin-top: -60px;
+    }
+    .faq__title {
+        font-size: 38px;
+    }
+    .faq__items {
+        max-width: 1200px;
+    }
 }

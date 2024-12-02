@@ -81,5 +81,11 @@
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {
-
+  .advantages__item {
+    font-size: 18px;
+  }
+  .advantages {
+    height: 135px;
+    width: 700px;
+  }
 }
