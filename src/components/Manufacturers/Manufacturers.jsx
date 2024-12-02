@@ -7,11 +7,11 @@ import nextArrow from "../../images/icons/icon-next-arrow.png"
 
 function Manufacturers() {
     const manufacturers = [
-        { src: "/images/manufacturers/manufacturer1.png", alt: "Производитель 1" },
-        { src: "/images/manufacturers/manufacturer2.png", alt: "Производитель 2" },
-        { src: "/images/manufacturers/manufacturer3.png", alt: "Производитель 3" },
-        { src: "/images/manufacturers/manufacturer4.png", alt: "Производитель 4" },
-        { src: "/images/manufacturers/manufacturer5.png", alt: "Производитель 5" },
+        { src: `${process.env.PUBLIC_URL}/images/manufacturers/manufacturer1.png`, alt: "Производитель 1" },
+        { src: `${process.env.PUBLIC_URL}/images/manufacturers/manufacturer2.png`, alt: "Производитель 2" },
+        { src: `${process.env.PUBLIC_URL}/images/manufacturers/manufacturer3.png`, alt: "Производитель 3" },
+        { src: `${process.env.PUBLIC_URL}/images/manufacturers/manufacturer4.png`, alt: "Производитель 4" },
+        { src: `${process.env.PUBLIC_URL}/images/manufacturers/manufacturer5.png`, alt: "Производитель 5" },
     ];
 
     const PrevArrow = ({ onClick }) => (
