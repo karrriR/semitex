@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/semitex/static/css/main.a97241f1.css",
-    "main.js": "/semitex/static/js/main.f0385d5a.js",
+    "main.js": "/semitex/static/js/main.def0d116.js",
     "static/media/bg-faq.png": "/semitex/static/media/bg-faq.3af42a4ec2220ef08957.png",
     "static/media/bg-header.png": "/semitex/static/media/bg-header.f314ec63e5148b688953.png",
     "static/media/bg-manufacturers.png": "/semitex/static/media/bg-manufacturers.b61f95d8661514bc001c.png",
@@ -19,10 +19,10 @@
     "static/media/slick.woff": "/semitex/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/semitex/index.html",
     "main.a97241f1.css.map": "/semitex/static/css/main.a97241f1.css.map",
-    "main.f0385d5a.js.map": "/semitex/static/js/main.f0385d5a.js.map"
+    "main.def0d116.js.map": "/semitex/static/js/main.def0d116.js.map"
   },
   "entrypoints": [
     "static/css/main.a97241f1.css",
-    "static/js/main.f0385d5a.js"
+    "static/js/main.def0d116.js"
   ]
 }
