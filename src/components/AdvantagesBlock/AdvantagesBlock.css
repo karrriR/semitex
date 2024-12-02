@@ -65,7 +65,23 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {
-
+  .advantages-block {
+    margin: 50px auto 100px auto;
+  }
+  .advantages-block__title {
+    font-size: 36px;
+  }
+  .advantages-block__description {
+    max-width: 1000px;
+    font-size: 17px;
+    margin: 20px auto 35px auto;
+  }
+  .advantages-block__cards {
+    gap: 15px 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {

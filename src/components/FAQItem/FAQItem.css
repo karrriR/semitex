@@ -80,7 +80,10 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {
-
+    .faq-item__question {
+        padding: 25px 25px 25px 30px;
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {

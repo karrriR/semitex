@@ -93,7 +93,30 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {
-
+  .banner-block {
+    max-width: 1000px;
+    margin: 200px auto 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .banner-block__main-content {
+    margin-top: 0px;
+  }
+  .banner-block__title {
+    max-width: 580px;
+    font-size: 40px;
+  }
+  .banner-block__title-large {
+    font-size: 46px;
+  }
+  .banner-block__title-low {
+    font-size: 34px;
+  }
+  .banner-block__text {
+    max-width: 520px;
+    font-size: 17px;
+    margin: 15px 0 25px 0;
+  }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {

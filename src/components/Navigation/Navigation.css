@@ -44,7 +44,13 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {
-
+  .navigation__list {
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 730px;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {

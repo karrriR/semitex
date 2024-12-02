@@ -120,7 +120,32 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {
-
+    .container {
+        padding: 50px 0 130px 0;       
+    }
+    .workflow__title {
+        font-size: 36px;
+    }
+    .workflow__description {
+        max-width: 1000px;
+        font-size: 16px;
+        margin: 15px auto 30px auto;
+    }
+    .workflow__steps {
+        display: grid;
+        grid-template-areas:
+            "step1 step2"
+            "step6 step3"
+            "step5 step4";
+        max-width: 900px;
+        gap: 10px;
+    }
+    
+    .workflow__button {
+        width: 280px;
+        font-size: 17px;
+        margin: 40px auto 0 auto;
+    }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {

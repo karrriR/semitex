@@ -36,14 +36,21 @@ function Manufacturers() {
         nextArrow: <NextArrow />,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1920,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 1440,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 740,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -51,7 +58,7 @@ function Manufacturers() {
                 },
             },
             {
-                breakpoint: 360,
+                breakpoint: 740,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,

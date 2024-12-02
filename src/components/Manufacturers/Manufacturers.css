@@ -113,7 +113,32 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {
-
+    .manufacturers {
+        padding: 100px 0;
+    }
+    .manufacturers__title {
+        font-size: 36px;
+        text-align: center;
+    }
+    .manufacturers__slider {
+        max-width: 700px;
+        margin: 40px auto 35px auto;
+    }
+    .manufacturers__description {
+        max-width: 800px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .manufacturers__image {
+        width: 200px;
+    }
+    .manufacturers__arrow-left {
+        left: -100px; 
+    }
+    
+    .manufacturers__arrow-right {
+        right: -100px;
+    }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {

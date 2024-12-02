@@ -77,7 +77,22 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1439px)  {
-
+  .advantage-card {
+    width: 320px;
+    height: 325px;
+  }
+  .advantage-card__logo {
+    margin: 25px auto 0 auto;
+    width: 130px;
+  }
+  .advantage-card__title {
+    font-size: 16px;
+    margin: 30px auto 10px auto;
+  }
+  .advantage-card__description {
+    width: 235px;
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 1440px) and (max-width: 1919px) {
