@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/semitex/static/css/main.a97241f1.css",
+    "main.js": "/semitex/static/js/main.f0385d5a.js",
+    "static/media/bg-faq.png": "/semitex/static/media/bg-faq.3af42a4ec2220ef08957.png",
+    "static/media/bg-header.png": "/semitex/static/media/bg-header.f314ec63e5148b688953.png",
+    "static/media/bg-manufacturers.png": "/semitex/static/media/bg-manufacturers.b61f95d8661514bc001c.png",
+    "static/media/bg-workflow.png": "/semitex/static/media/bg-workflow.286b8f258a425a914b8a.png",
+    "static/media/bg-step2.png": "/semitex/static/media/bg-step2.4508e4ab89dfeaf6df9d.png",
+    "static/media/bg-step4.png": "/semitex/static/media/bg-step4.7debe78d264300f473ad.png",
+    "static/media/bg-step5.png": "/semitex/static/media/bg-step5.becface071107b330e23.png",
+    "static/media/bg-step3.png": "/semitex/static/media/bg-step3.4cfeee7c6462ee895aaf.png",
+    "static/media/bg-step6.png": "/semitex/static/media/bg-step6.91d7772eb27f1cef1a0a.png",
+    "static/media/bg-step1.png": "/semitex/static/media/bg-step1.8b2c9545967f85db155b.png",
+    "static/media/contact-icon.svg": "/semitex/static/media/contact-icon.02e3eca5d2fd2e7caf4c39cb880fe154.svg",
+    "static/media/slick.svg": "/semitex/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/semitex/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/semitex/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/semitex/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/semitex/index.html",
+    "main.a97241f1.css.map": "/semitex/static/css/main.a97241f1.css.map",
+    "main.f0385d5a.js.map": "/semitex/static/js/main.f0385d5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a97241f1.css",
+    "static/js/main.f0385d5a.js"
+  ]
+}
