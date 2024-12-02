@@ -54,3 +54,49 @@
     cursor: pointer;
     margin: 48px auto 0 auto;
 }
+
+
+@media (min-width: 360px) and (max-width: 743px) {
+    .container {
+        padding: 40px 0 110px 0;       
+    }
+    .workflow__title {
+        font-size: 28px;
+    }
+    .workflow__description {
+        max-width: 320px;
+        font-size: 14px;
+        margin: 15px auto 30px auto;
+    }
+    .workflow__steps {
+        display: grid;
+            grid-template-areas:
+            "step1"
+            "step2"
+            "step3"
+            "step4"
+            "step5"
+            "step6";
+        max-width: 340px;
+        gap: 10px;
+    }
+    
+    .workflow__button {
+        width: 340px;
+        height: 50px;
+        font-size: 15px;
+        margin: 30px auto 0 auto;
+    }
+}
+
+@media (min-width: 744px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px)  {
+
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}

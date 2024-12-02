@@ -45,3 +45,33 @@
     display: grid;
     gap: 35px;
 }
+
+
+@media (min-width: 360px) and (max-width: 743px) {
+    .faq-item__question {
+        padding: 20px 20px 20px 25px;
+        font-size: 16px;
+    }
+    .faq-item__question span{
+        width: 225px;
+    }
+    .faq-item__answer {
+        padding: 25px 30px 35px 30px;
+        font-size: 14px;
+        line-height: 25px;
+        gap: 15px;
+    }
+    
+}
+
+@media (min-width: 744px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px)  {
+
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}

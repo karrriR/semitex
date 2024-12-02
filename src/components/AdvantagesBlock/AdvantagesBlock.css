@@ -24,3 +24,34 @@
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
+
+@media (min-width: 360px) and (max-width: 743px) {
+  .advantages-block {
+    margin: 40px auto 90px auto;
+  }
+  .advantages-block__title {
+    font-size: 28px;
+  }
+  .advantages-block__description {
+    max-width: 340px;
+    font-size: 14px;
+    margin: 15px auto 30px auto;
+  }
+  .advantages-block__cards {
+    gap: 15px 0px;
+    max-width: 340px;
+  }
+}
+
+@media (min-width: 744px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px)  {
+
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}

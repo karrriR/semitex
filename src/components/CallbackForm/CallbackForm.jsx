@@ -4,6 +4,7 @@ import privacyIcon from "../../images/icons/icon-privacy.png";
 function CallbackForm() {
     return(
         <div className="callback">
+            <button type="submit" className="callback__button-open-form">Заказать звонок</button>
             <div className="callback__container">
                 <h2 className="callback__title">ЗАКАЖИТЕ <br/> ОБРАТНЫЙ ЗВОНОК</h2>
                 <form className="callback__form">

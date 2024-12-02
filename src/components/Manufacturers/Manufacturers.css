@@ -54,3 +54,41 @@
     display: block;
     margin: 0 auto;
 }
+
+
+@media (min-width: 360px) and (max-width: 743px) {
+    .manufacturers {
+        padding: 85px 0;
+    }
+    .manufacturers__title {
+        font-size: 28px;
+        text-align: center;
+    }
+    .manufacturers__slider {
+        max-width: 340px;
+        margin: 30px auto 25px auto;
+    }
+    .manufacturers__description {
+        max-width: 320px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .manufacturers__arrow {
+        display: none;
+    }
+    .manufacturers__image {
+        width: 200px;
+    }
+}
+
+@media (min-width: 744px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px)  {
+
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
